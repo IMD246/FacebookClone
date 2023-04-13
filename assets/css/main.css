@@ -1,0 +1,227 @@
+.app {
+    width: 100%;
+    height: 100%;
+    background-color: #f0f2f5;
+}
+
+.body {
+    height: 720px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer{
+    height: 156px;
+    width: 100%;
+    background-color: var(--white-color);
+}
+
+.body-content {
+
+}
+
+.body__content--img {
+    height: 66px;
+}
+
+.body__content--title {
+    font-size: 2.6rem;
+    margin: 0;
+    margin-bottom: 6px;
+}
+
+.list__account {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.body__content--desc {
+    margin: 0;
+}
+
+.account__item {
+    width: 160px;
+    min-height: 200px;
+    background-color: var(--white-color);
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    margin: 0px 8px;
+    cursor: pointer;
+    box-shadow: 0 1px 8px 2px none;
+    position: relative;
+}
+
+.account__item:hover {
+    box-shadow: 0 1px 8px 2px #888888;
+}
+
+.account__item--username {
+    font-size: 1.6rem;
+    padding: 12px 0px;
+    text-align: center;
+    color: #4b4f56;
+}
+
+.account__item--delete {
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    width: 12px;
+    height: 12px;
+    border-radius: 6px;
+    background-color: #ccc;
+    text-align: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, .3);
+}
+
+.item--delete-link {
+    position: absolute;
+    top: -2px;
+    left: 3px;
+}
+
+.item--delete-link-icon {
+    text-align: center;
+    justify-content: center;
+    height: 8px;
+    width: 8px;
+    color: var(--white-color);
+}
+
+.body-form {
+    height: 350px;
+    width: 400px;
+    padding: 24px 16px;
+    background: var(--white-color);
+    border-radius: 16px;
+}
+
+.form__control {
+    padding: 16px;
+    width: 100%;
+    min-width: 160px;
+    border: 1px solid #dddfe2;
+    border-radius: 6px;
+    outline: none;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 12px;
+    align-items: center;
+}
+
+.form__control--input {
+    outline: none;
+    border: none;
+    width: 100%;
+    font-weight: 500;
+    font-size: 1.7rem;
+}
+
+.form__control:focus-within{
+    border-color: var(--primary-color);
+}
+
+.control--input--password {
+    width: 80%;
+}
+
+.form__control--toggle {
+    height: 16px;
+    width: 16px;
+}
+
+.btn__signin{
+    margin-top: 4px;
+    width: 100%;
+    height: 50px;
+    border-radius: 6px;
+    background-color: var(--primary-color);
+    border: none;
+    font-size: 2.0rem;
+    font-weight: 700;
+    color: var(--white-color);
+    margin-bottom: 16px;
+}
+
+.btn__signin:hover {
+    cursor: pointer;
+}
+
+.forgot__password {
+    display: flex;
+    justify-content: center;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    color: var(--primary-color);
+    font-size: 1.6rem;
+    margin-bottom: 24px;
+}
+
+.forgot__password:hover{
+    text-decoration: underline;
+}
+
+.horizontal__separate {
+    width: 100%;
+    height: 2px;
+    background-color: #e9eaec;
+}
+
+.btn__container {
+    width: 100%;
+    height: 76px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn__new--account {
+    padding: 0px 16px;
+    min-width: 160px;
+    background-color: #42b72a;
+    font-size: 1.8rem;
+    color: var(--white-color);
+    border-radius: 6px;
+    height: 50px;
+    border: none;
+}
+
+.btn__new--account:hover{
+    cursor: pointer;
+}
+
+.body-form-aside {
+    margin-top: 24px;
+    display: inline-block;
+    text-align: center;
+    /* justify-content: center; */
+    width: 400px;
+}
+.aside-link {
+    outline: none;
+    border: none;
+    text-decoration: none;
+    font-size: 1.4rem;
+    margin-bottom: 14px;
+    color: var(--text-color);
+    font-weight: 600;
+    margin-left: 18px;
+}
+
+.aside-link:hover{
+    text-decoration: underline;
+}
+
+.aside-text {
+    font-size: 1.35rem;
+    text-align: center;
+    font-weight: 600;
+}

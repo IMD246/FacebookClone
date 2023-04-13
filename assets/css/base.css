@@ -1,0 +1,19 @@
+:root {
+    --white-color: #fff;
+    --black-color: #000;
+    --text-color: #333;
+    --primary-color: #1877f2;
+}
+
+/* Apply css tới tất cả phần tử */
+* {
+    /* Thuộc tính này dùng để các thẻ kế thừa box-sizing từ thẻ chứa nó*/
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: "SFProDisplay-Regular", Helvetica, Arial, sans-serif;
+    box-sizing: border-box;
+}
