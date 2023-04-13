@@ -11,6 +11,7 @@
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .footer{
@@ -20,9 +21,14 @@
 }
 
 .body-content {
-
+    text-align: start;
 }
 
+@media screen and (max-width: 900px){
+    .body-content{
+        text-align: center;
+    }
+}
 .body__content--img {
     height: 66px;
 }
@@ -37,6 +43,8 @@
     list-style: none;
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .body__content--desc {
